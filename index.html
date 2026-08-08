@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,49 +8,192 @@
     <link rel="stylesheet" href="./styles/style.css">
 
     <style>
-       .hero-section{
-        background-image: url("./images/banner.jpg");
-              background-size: cover;
+        .hero-section {
+            background-image: url("./images/banner.jpg");
+            background-size: cover;
             height: 786px;
             margin: 0;
             border: 2px solid red;
         }
     </style>
 </head>
+
 <body>
     <header>
-<nav>
-    <div>
-        <img src="./images/logo.png" alt="logo image">
-    </div>
-    <ul>
-        <li><a href="">Speakers</a></li>
-        <li><a href="">Schedule</a></li>
-        <li><a href="">Tracks</a></li>
-        <li><a href="">Venue</a></li>
-        <li><a href="">Blog</a></li>
-    </ul>
-    <div>
-        <button class="common-btn logo-btn">Register Now</button>
-    </div>
-</nav>
-<section class="hero-section">
+        <nav>
+            <div>
+                <img src="./images/logo.png" alt="logo image">
+            </div>
+            <ul>
+                <li><a href="">Speakers</a></li>
+                <li><a href="">Schedule</a></li>
+                <li><a href="">Tracks</a></li>
+                <li><a href="">Venue</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+            <div>
+                <button class="common-btn logo-btn">Register Now</button>
+            </div>
+        </nav>
 
-
-<div class="hero-text">
-        <h1>Code.<em>Connect</em>.Create</h1>
-    <p>Join 4,000+ engineers, founders, and builders at the premier developer <br>conference of 2026. Three days of cutting-edge talks, hands-on workshops, <br>and meaningful connections.</p>
-            <button class="common-btn hero-btn">Register Now</button>         
-</div>
-
-</section>
     </header>
     <main>
+        <section class="hero-section">
 
+
+            <div class="hero-text">
+                <h1>Code.<em>Connect</em>.Create</h1>
+                <p>Join 4,000+ engineers, founders, and builders at the premier developer <br>conference of 2026. Three
+                    days of cutting-edge talks, hands-on workshops, <br>and meaningful connections.</p>
+                <button class="common-btn hero-btn">Register Now</button>
+            </div>
+
+        </section>
+
+
+        <section class="speakers-section">
+            <h1>Meet the Speakers</h1>
+            <div class="cards">
+                <div class="card">
+                    <img src="./images/andrej.png" alt="image of andrej">
+                    <div class="card-text">
+                        <p class="role">AI/ML</p>
+                        <h3>Andrej Karpnthy</h3>
+                        <p class="company">pretraining team,Anthropic</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./images/demis.png" alt="image of demis">
+                    <div class="card-text">
+                        <p class="role">CLOUD&DEVOPS</p>
+                        <h3>Demis Hassabis</h3>
+                        <p class="company">Co-Founder and CEO,Google Deepmind</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/gary.png  " alt="image of gary">
+                    <div class="card-text">
+                        <p class="role">FRONTEND</p>
+                        <h3>Gray Marcus</h3>
+                        <p class="company">staff Engineer,vercel</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/mustafa.png" alt="image of mustafa">
+                    <div class="card-text">
+                        <p class="role">SECURITY</p>
+                        <h3>Mustafa Suleyman</h3>
+                        <p class="company">CEO of Microsoft AI</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="secure-spot">
+            <div class="text-sp">
+                <h1>Secure Your Spot</h1>
+
+                <p>Early-bird pricing ends August 15,2026.</p>
+            </div>
+
+            <div class="cards-sp">
+                <div class="card-sp">
+                    <div>
+                        <p class="company">STANDARD</p>
+                        <h1>$300</h1>
+                        <p class="company">per person</p>
+                        <ul class="company">
+                            <li>Access to all 3 conference days</li>
+                            <li>48 curated technical talks</li>
+                            <li>2 worksshop sessions</li>
+                            <li>Networking lunch &coffee breaks</li>
+                            <li>conference swag bag</li>
+                            <li>digital recording(30 days)</li>
+                        </ul>
+
+                        <button class="common-btn-sp first">Get Standard</button>
+                    </div>
+                </div>
+                <div class="card-sp mid-card">
+                    <div>
+                        <p>PRO</p>
+                        <h1>$749</h1>
+                        <p>per person</p>
+
+                    </div>
+                    <ul>
+                        <li>Everyting is Standard</li>
+                        <li>Unlimited workshop access</li>
+                        <li>Speaker meet & greet</li>
+                        <li>VIP networning dinner</li>
+                        <li>Lifetime recording access</li>
+                        <li>1-on-1 mentorshio(30 min)</li>
+
+                    </ul>
+                    <button class="common-btn-sp mid">Get Pro</button>
+                </div>
+                <div class="card-sp">
+                    <div>
+                        <p class=" company">team</p>
+                        <h1>$5,999</h1>
+                        <p class="company">up to 10 people</p>
+                    </div>
+                    <ul class="company">
+                        <li>Everting in pro (10 seats)</li>
+                        <li>Dedication team lounge access</li>
+                        <li>Private workshop booking</li>
+                        <li>Company logo on event page</li>
+                        <li>Recruitment booth(1 day)</li>
+                        <li>Priority customer support</li>
+                    </ul>
+                    <button class="common-btn-sp">Contact us</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="missing-section">
+            <div>
+                <h3 class="color">WHY DEVCONF?</h3>
+                <h1>More Than Just</h1>
+                <h1 class="color"> A Congerence</h1>
+                <button class="common-btn logo-btn">Register Now </button>
+
+            </div>
+            <div class="missing-cards">
+                <div class="missing-card">
+                    <h6>01</h6>
+                    <h4>Learn & Grow</h4>
+                    <p>Get practical insights from experienced engineers and technology leaders.</p>
+                </div>
+                <div class="missing-card">
+                    <h6>02</h6>
+                    <h4>Bulild connertions</h4>
+                    <p>Meet developers, founders and innovators from across the tech industry.</p>
+                </div>
+                <div class="missing-card"> 
+                    <h6>03</h6>
+                    <h4>Hands-on Worksshops</h4>
+                    <p>Turn knowledge into experience with practical technical workshops.</p>
+                </div>
+                <div class="missing-card">
+                    <h6>04</h6>
+                    <h4>Discover Whast's Next</h4>
+                    <p>Explore emerging technologies and ideas shaping the future of development.</p>
+                </div>
+
+            </div>
+
+
+        </section>
     </main>
     <footer>
 
     </footer>
 
 </body>
+
 </html>

@@ -1,7 +1,7 @@
 body{
     max-width: 1551px;
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .common-btn{
     color: white;
@@ -72,3 +72,109 @@ nav ul a{
     margin-top: 380px;
 }
 
+.speakers-section{
+    padding:80px 60px ;
+}
+.speakers-section h1{
+    text-align: center;
+    
+}
+.cards{
+    margin-top: 50px;
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+
+
+.company{
+    color: rgba(87, 87, 87, 1);
+}
+
+.role{
+    color: rgba(37, 99, 235, 1);
+}
+
+.card{
+    width: 644px;
+    height: 460px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    background-color: rgb(234, 235, 236);
+}
+.card-text{
+    margin-left: 30px;
+}
+
+.text-sp{
+    text-align: center;
+}
+
+
+.card-sp{
+    width: 270px;
+    
+    border: 1px solid rgb(204, 203, 203);
+    background-color: rgb(242, 241, 241);
+    border-radius: 12px;
+    padding: 40px 50px;
+}
+
+.mid-card{
+    background-color: rgba(13, 27, 42, 1);
+    color: white;
+}
+.common-btn-sp {
+    padding: 20 px;
+    width: 280px;
+    height: 25px;
+    border-radius: 11px;
+    border: none;
+}
+
+.common-btn-sp:hover{
+    background-color: lightblue;
+}
+
+.first{
+    border:1px solid rgba(37, 99, 235, 1) ;
+    color: rgba(37, 99, 235, 1);
+}
+.mid{
+    background-color: rgba(37, 99, 235, 1);
+    color: white;
+}
+
+
+.secure-spot{
+    margin: 50px;
+    padding: 0 50px;
+}
+.cards-sp{
+    display: flex;
+    justify-content: space-around;
+}
+
+.missing-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    padding: 25px;
+    margin-top: 50px;
+}
+.color{
+    color: rgb(116, 116, 245);
+}
+.missing-card{
+    width: 210px;
+    padding: 30px;
+    border: 1px solid rgb(214, 212, 212);
+    border-radius: 10px;
+
+}
+.missing-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
